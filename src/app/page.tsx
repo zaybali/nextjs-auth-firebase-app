@@ -1,7 +1,7 @@
 // app/home/page.tsx
 'use client';
 
-import { useAuth } from 'c:/Users/a/Documents/demo/nextjs/nextjs-auth-firebase-app/src/context/authcontext';
+import { useAuth } from '@/context/authcontext';
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 
