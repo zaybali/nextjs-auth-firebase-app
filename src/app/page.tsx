@@ -28,7 +28,7 @@ export default function Home() {
   }, [user, router]);
 
   if (loading) {
-    return <div>Loading...</div>; // Render a loading message or spinner
+    return <h1 style={{display:'flex', justifyContent:'center', alignItems:'center', minHeight: '100vh'}}>Loading...</h1>; // Render a loading message or spinner
   }
 
   // useEffect(() => {
