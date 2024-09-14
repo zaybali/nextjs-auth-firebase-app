@@ -55,6 +55,7 @@ const Signup = () => {
 
   return (
     <div className="container">
+    <h1 className="mainHeading">Next Auth Firebase App</h1>
     <div className="formWrapper">
       <h2 className="heading">Sign Up</h2>
       <form onSubmit={handleSignup} className="form">
